@@ -21,10 +21,18 @@
 #count {
     color: #ffffff;
     background-color: #c0c0c0;
-    padding: 2px 2px 2px 3px;
-    -moz-border-radius: 0.2em;
-    -webkit-border-radius: 0.2em;
-    border-radius: 0.2em;
+    padding: 1px;
+    -moz-border-radius: 0.1em;
+    -webkit-border-radius: 0.1em;
+    border-radius: 0.1em;
+}
+#count:hover{
+    color: #ffffff;
+    background-color: #D73C31;
+    padding: 2px 2px 2px 2px;
+    -moz-border-radius: 0.1em;
+    -webkit-border-radius: 0.1em;
+    border-radius: 0.1em;
 }
 #count a {
     cursor: pointer;
