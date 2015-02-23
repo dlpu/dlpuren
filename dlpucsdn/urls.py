@@ -15,9 +15,9 @@ urlpatterns = patterns('',
                        url(r'^admin', include(admin.site.urls)),
                        url(r'^assignment', include('assignment.urls')),
                        url(r'^user',include('account.urls')),
-                       url(r'^(?P<dn>\w{2,3})/research', include('research.urls')),
-                       url(r'^(?P<dn>\w{2,3})/blog', include('blog.urls')),
-                       url(r'^(?P<dn>\w{2,3})/forum', include('forum.urls')),
-                       url(r'^(?P<dn>\w{2,3})', include('news.urls')),
+                       url(r'^(?P<dn>\w{2,3})/research/', include('research.urls')),
+                       url(r'^(?P<dn>\w{2,3})/blog/', include('blog.urls')),
+                       url(r'^(?P<dn>\w{2,3})/forum/', include('forum.urls')),
+                       url(r'^(?P<dn>\w{2,3})/', include('news.urls')),
 
 )
