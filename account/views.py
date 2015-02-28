@@ -18,8 +18,8 @@ import qiniu.conf
 import qiniu.rs
 import qiniu.io
 
-qiniu.conf.ACCESS_KEY = "vco8VEaZwm24oxn9btpSdjVUMGUe21-K049IlIbl"
-qiniu.conf.SECRET_KEY = "jTUDwXmbx8uzSG-jEXAfigbQN8Aj3Q3-K6eDU6Ru"
+qiniu.conf.ACCESS_KEY = ""
+qiniu.conf.SECRET_KEY = ""
 
 
 def user_login(request):
