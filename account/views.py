@@ -18,8 +18,8 @@ import qiniu.conf
 import qiniu.rs
 import qiniu.io
 
-qiniu.conf.ACCESS_KEY = ""
-qiniu.conf.SECRET_KEY = ""
+qiniu.conf.ACCESS_KEY = "定期更换密钥！"
+qiniu.conf.SECRET_KEY = "定期更换密钥！"
 
 
 def user_login(request):

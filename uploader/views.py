@@ -12,8 +12,8 @@ import qiniu.io
 import json
 import base64
 
-qiniu.conf.ACCESS_KEY=""
-qiniu.conf.SECRET_KEY=""
+qiniu.conf.ACCESS_KEY="定期更换密钥！"
+qiniu.conf.SECRET_KEY="定期更换密钥！"
 
 def upload_file(request):
     file = qiniu.rs.PutPolicy('dlpucsdn')
