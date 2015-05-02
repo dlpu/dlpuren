@@ -43,7 +43,6 @@ def user_login(request):
         messages.add_message(request,messages.WARNING,u'你已登录')
         return HttpResponseRedirect(reverse('index'))
 
-
 def user_signup(request):
     if request.method == 'GET':
         return render_to_response('account/signup.html', {'title': u'学生注册--工大CSDN俱乐部'},
