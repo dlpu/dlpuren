@@ -2,8 +2,6 @@
 ---
 ![](https://img.shields.io/dub/l/vibe-d.svg)
 
-![](https://img.shields.io/github/stars/badges/shields.svg)
-
 完成度：80%，主要是作业发布部分未完成
 ###部署
 ---
